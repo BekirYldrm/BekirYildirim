@@ -1,0 +1,85 @@
+/*******************************************TAG SELECTOR********************************************************/
+a {
+    color: rgb(29, 228, 46);
+    font-family: system-ui;
+}
+
+body {
+    background-color: #eaf6f6;
+    position: relative;
+}
+
+form {
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+h1 {
+    color: #66bfbf;
+    font-family: Cambria;
+}
+
+h3 {
+    color: brown;
+    font-family: system-ui;
+}
+
+hr {
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+/******************************************Class Selector**************************************************/
+.adresımg {
+    height: 50px;
+    left: 10px;
+    position: absolute;
+    top: 60px;
+    width: 50px;
+}
+.adresımg2 {
+    height: 50px;
+    left: 10px;
+    position: absolute;
+    top: 120px;
+    width: 50px;
+}
+.iletişim-hr {
+    margin: 150px auto 0px auto;
+}
+
+
+/**************************************** Sözde Sınıf (Pseudo Class)*************************************/
+.adresımg:hover {
+    height: 60px;
+    left: 5px;
+    position: absolute;
+    top: 55px;
+    width: 60px;
+}
+.adresımg2:hover {
+    height: 60px;
+    left: 5px;
+    position: absolute;
+    top: 115px;
+    width: 60px;
+}
+.link:hover {
+    color: red;
+    background-color: darkgray;
+}
+
+/********************************ID SELECTORS*****************************************************/
+#başlık {
+    color: darkmagenta;
+
+}
+
+#başlık2 {
+    color: tomato;
+
+}
